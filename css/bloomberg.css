@@ -1,7 +1,35 @@
 body {
     background-color: black;
+    color: white;
+}
+
+table {
+    border: 1px;
+} 
+
+.main_content {
+    background-color: #19194d;
+}
+
+.red_cell {
+    background-color: #cc0000;
+}
+
+.orange_text {
+    color: orange;
 }
 
 .error {
-    color: red;
+    color: #e60000;
+}
+
+.push_right {
+    text-align: right;
+}
+
+
+/* Change space between coloumns */
+.col-xs-3, .col-xs-4, .col-xs-5{
+  padding-right:1px;
+  padding-left:1px;
 }

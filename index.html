@@ -4,69 +4,125 @@
     <title>Bootstrap 101 template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap_modern.min.css" rel="stylesheet" media="screen">
     
+    <!-- old bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
     <link href="css/bloomberg.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid">
-        <h2>SECURITY DESCRIPTION</h2>
-        <h2>MORGAN STANLEY MS 3.8</h2>
-        <div class="row-fluid">
-            <div class="span5" style="background-color: yellow;">
-                <div>COLUMN 1</div>
+    <div class="container">
+        <h1>Something</h1>
+        <div class="row main_content">
+            <div class="col-xs-5">
+                <div class="red_cell">ISSUER INFORMATION</div>
+                <div><span class="orange_text">Name</span> MORGAN STANLEY</div>
+                <div><span class="orange_text">Type</span> Diversified Banking Inst</div>
+                <div><span class="orange_text">Market of Issue</span> Global</div>
+                <div class="red_cell">SECURITY INFORMATION</div>
+                <div class="row">
+                    <div class="col-xs-6">Country US</div>
+                    <div class="col-xs-6">Currency USD</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">Collateral Type</div>
+                    <div class="col-xs-6">Sr Unsecured</div>
+                </div>
+                <div>Calc Typ( 1) STREET CONVENTION</div>
+                <div><span style="color: yellow;">Maturity </span> 4/29/2016 <span style="color: yellow;">Series</span></div>
+                <div>NORMAL</div>
+                <div><span style="color: yellow;">Coupon </span> 3.8 Fixed</div>
+                <div>S/A 30/360</div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">Announcement Dt</div>
+                    <div class="col-xs-6">4/26/11</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">Int. Accrual Dt</div>
+                    <div class="col-xs-6">4/29/11</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">1st Settle Date</div>
+                    <div class="col-xs-6">4/29/11</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">1st Coupon Date</div>
+                    <div class="col-xs-6">10/29/11</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">Iss Pr</div>
+                    <div class="col-xs-6">99.90100</div>
+                </div>
+                <div>SPR @ ISS 180.00 vs T 2 1/4 03/16</div>
+                <div>HAVE PROSPECTUS DTC</div>
             </div>
-            <div class="span3" style="background-color: blue;">
-                <div>COLUMN 2</div>
+            
+            <div class="col-xs-3">
+                <div class="red_cell">IDENTIFIERS</div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">CUSIP</div>
+                    <div class="col-xs-6 push_right">61774652</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">ISIN</div>
+                    <div class="col-xs-6 push_right">61774652</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">BB Number</div>
+                    <div class="col-xs-6 push_right">61774652</div>
+                </div>
+                <div class="red_cell">RATINGS</div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">Moody's</div>
+                    <div class="col-xs-6">A2</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">S&P</div>
+                    <div class="col-xs-6">A-</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">Fitch</div>
+                    <div class="col-xs-6">A</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 orange_text">Composite</div>
+                    <div class="col-xs-6">A-</div>
+                </div>
+                <div class="red_cell">ISSUE SIZE</div>
+                <div class="orange_text">Amt Issued/Outstanding</div>
+                <div>USD 2,500,000.00 (M)/</div>
+                <div>USD 2,500,000.00 (M)</div>
+                <div class="orange_text">Min Piece/Increment</div>
+                <div>100,000.00/ 1,000.00</div>
+                <div><span>Par Amount</span>1,000.00</div>
+                <div class="red_cell">BOOK RUNNER/EXCANGE</div>
+                <div>MS</div>
+                <div>Multiple</div>
             </div>
-            <div class="span4" style="background-color: red;">
-                <div>COLUMN 3</div>
+            
+            <div class="col-xs-4">
+                <div>&nbsp1) Additional Sec Info</div>
+                <div>&nbsp2) ALLQ</div>
+                <div>&nbsp3) TRACE Trade Recap</div>
+                <div>&nbsp4) TRACE Trade History</div>
+                <div>&nbsp5) Corporate Actions</div>
+                <div>&nbsp6) Cds Spreads/RED Info</div>
+                <div>&nbsp7) Ratings</div>
+                <div>&nbsp8) Custom Notes</div>
+                <div>&nbsp9) Covenant/Default</div>
+                <div>10) Identifiers</div>
+                <div>11) Fees/Restrictions</div>
+                <div>12) Prospectus</div>
+                <div>13) Sec. Specific News</div>
+                <div>14) Involved Parties</div>
+                <div>15) Issuer Information</div>
+                <div>16) Pricing Sources</div>
+                <div>17) Related Securities</div>
+                <div>18) Issuer Web Page</div>
+                <div>66) Send as Attachment</div>
             </div>
         </div>
-        <h2 class="visible-phone">PHONE</h2>
-        <h2 class="visible-tablet">TABLET</h2>
-        <h2 class="visible-desktop">DESKTOP</h2>
     </div>
-        <!--<table style="width: 100%" class="main_content">-->
-        <!--    <tbody>-->
-        <!--        <tr>-->
-        <!--            <td class="crvena_pozadina">ISSUER INFORMATION</td>-->
-        <!--            <td class="crvena_pozadina">IDENTIFIERS</td>-->
-        <!--            <td>1) Additional Sec Info</td>-->
-        <!--        </tr>-->
-        <!--        -->
-        <!--        <tr>-->
-        <!--            <td>Name MORGAN STANLEY</td>-->
-        <!--            <td>-->
-        <!--                <table>-->
-        <!--                    <tbody>-->
-        <!--                        <tr>-->
-        <!--                            <td>CUSIP</td>-->
-        <!--                            <td class="text-right">61745sfda</td>-->
-        <!--                        </tr>-->
-        <!--                    </tbody>-->
-        <!--                </table>-->
-        <!--            </td>-->
-        <!--            <td>2) ALLQ</td>-->
-        <!--        </tr>-->
-        <!--        -->
-        <!--        <tr>-->
-        <!--            <td>Type Diversified Banking Inst</td>-->
-        <!--            <td>ISIN US6747YDD40</td>-->
-        <!--            <td class="error">3) TRACE Trade Recap</td>-->
-        <!--        </tr>-->
-        <!--        -->
-        <!--        <tr>-->
-        <!--            <td>Market of Issue Global</td>-->
-        <!--            <td>BB Number EI6545684</td>-->
-        <!--            <td>4) TRACE Trade History</td>-->
-        <!--        </tr>-->
-        <!--    </tbody>-->
-        <!--</table>    -->
-    
-    
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
