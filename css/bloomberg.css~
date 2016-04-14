@@ -1,0 +1,7 @@
+.error {
+    color: red;
+}
+
+.crvena_pozadina {
+    background-color: red;
+}
