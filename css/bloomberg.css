@@ -5,7 +5,12 @@ body {
 
 table {
     border: 1px;
-} 
+}
+
+h1.title {
+    margin-top: 10px;
+    font-size: 150%;
+}
 
 .main_content {
     background-color: #19194d;
@@ -17,6 +22,10 @@ table {
 
 .orange_text {
     color: orange;
+}
+
+.red_text {
+    color: red;
 }
 
 .error {
@@ -51,7 +60,7 @@ table {
 }
 
 /* Left colomn have 8px more than third one. */
-.add_8_px {
-    padding-top: 4px;
-    padding-bottom: 4px;
+.add_2_px {
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
